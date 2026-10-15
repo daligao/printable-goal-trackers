@@ -70,4 +70,4 @@ publish v1.0.0. Do not perform any external publication beforehand.
 
 ## Recent Git commit
 
-`71ff824` — `docs: add growth and delivery materials` (final local commit pending)
+`2f448b4` — `docs: finalize publication readiness review`
