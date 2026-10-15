@@ -8,7 +8,7 @@ private application, Pro features, customer data, or secrets.
 
 ## Current work package
 
-Complete: B — reusable renderer and four verified printable resources.
+Complete: F-Prepare — local project is ready for owner review before publication.
 
 ## Completed work packages
 
@@ -16,6 +16,12 @@ Complete: B — reusable renderer and four verified printable resources.
   repository scaffold, and development plan.
 - B (2026-10-15): Playwright PDF/PNG renderer, four original template data sets,
   eight one-page PDFs, four previews, automated output checks, and visual QA.
+- C (2026-10-15): open-source documentation, licenses, issue template, and local
+  responsive static showcase with real downloads.
+- D (2026-10-15): CI and Pages workflow definitions, release ZIP and notes.
+- E (2026-10-15): promotion drafts, measurement plan, and delivery report.
+- F-Prepare (2026-10-15): final build, security scan, GitHub read-only checks,
+  and publication checklist; no remote state was changed.
 
 ## Verified architecture
 
@@ -42,21 +48,26 @@ Complete: B — reusable renderer and four verified printable resources.
 - Content definitions: `src/data/templates.mjs`
 - Generated resources: `templates/` and `previews/`
 - Print QA: `reports/03-print-quality.md`
+- Release review: `PUBLIC_RELEASE_CHECKLIST.md`
 
 ## Test status
 
 - PASS: Node 26.10.0, npm 11.19.1, Git 2.55.0, Playwright Chromium rendering,
   2 unit tests, 8 one-page PDF checks, and 4 preview checks.
 - PASS: Visual PDF review at 150 DPI for all four A4 worksheets.
+- PASS: Local responsive Pages checks (1280px and 390px): 200 response, four
+  previews, and all local PDF links reachable.
+- PASS: Final full build, 2 unit tests, 8 PDF metadata checks, and credential scan.
 
 ## Unresolved issues
 
-- Decide final content license wording in package C after generated source exists.
+- Physical printing on a particular printer remains a user-side validation.
 
 ## Next work
 
-Continue with package C: repository documentation and local static showcase.
+Wait for explicit approval to create/push a public repository, enable Pages, and
+publish v1.0.0. Do not perform any external publication beforehand.
 
 ## Recent Git commit
 
-`7371e9b` — `chore: initialize printable goal trackers project`
+`71ff824` — `docs: add growth and delivery materials` (final local commit pending)
