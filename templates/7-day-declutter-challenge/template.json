@@ -1,0 +1,54 @@
+{
+  "id": "7-day-declutter-challenge",
+  "title": "7-Day Declutter Challenge",
+  "subtitle": "One small space a day, with a clear finish line.",
+  "purpose": "Make room gradually by focusing on manageable categories instead of an entire home.",
+  "fields": [
+    "My donation / recycle plan",
+    "A space I want to enjoy",
+    "Start date"
+  ],
+  "instructions": [
+    "Set a timer that feels manageable; stopping on time is part of the challenge.",
+    "Use the suggested area as a starting point and skip anything unsafe or sentimental.",
+    "Move donations and recycling out of the home promptly when you can."
+  ],
+  "type": "declutter",
+  "tasks": [
+    [
+      "Day 1",
+      "Entry or bag zone",
+      "Remove 10 items that do not belong here."
+    ],
+    [
+      "Day 2",
+      "One clothing drawer",
+      "Keep what fits and is worn; set aside the rest."
+    ],
+    [
+      "Day 3",
+      "Bathroom shelf",
+      "Discard expired items according to local guidance."
+    ],
+    [
+      "Day 4",
+      "Paper pile",
+      "Recycle duplicates and file the next useful action."
+    ],
+    [
+      "Day 5",
+      "Kitchen counter",
+      "Clear one surface and return only daily essentials."
+    ],
+    [
+      "Day 6",
+      "Digital downloads",
+      "Delete obvious duplicates and old screenshots."
+    ],
+    [
+      "Day 7",
+      "Donation bag",
+      "Finish one bag and choose its next destination."
+    ]
+  ]
+}

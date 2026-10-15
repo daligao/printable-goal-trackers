@@ -1,0 +1,17 @@
+{
+  "id": "2027-goals-tracker",
+  "title": "2027 Goals Tracker",
+  "subtitle": "Choose a few meaningful goals and turn each one into a next step.",
+  "purpose": "Keep the year visible without turning it into an overwhelming plan.",
+  "fields": [
+    "My 2027 theme",
+    "A promise to myself",
+    "Review month"
+  ],
+  "instructions": [
+    "Limit this page to goals that genuinely matter this year.",
+    "Give every goal one next action and one milestone you can recognize.",
+    "Review the page regularly; revise the plan instead of abandoning it."
+  ],
+  "type": "goals"
+}

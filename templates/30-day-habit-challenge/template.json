@@ -1,0 +1,18 @@
+{
+  "id": "30-day-habit-challenge",
+  "title": "30-Day Habit Challenge",
+  "subtitle": "A small daily action, repeated until it feels like yours.",
+  "purpose": "Choose one habit, make it easy to start, and mark each day you show up.",
+  "fields": [
+    "Habit I am practicing",
+    "My smallest version",
+    "Why it matters"
+  ],
+  "instructions": [
+    "Write one habit and a version small enough to do on a busy day.",
+    "Mark a day after you finish it; an imperfect streak still counts.",
+    "Use the weekly notes to notice what made the habit easier or harder."
+  ],
+  "type": "habit",
+  "days": 30
+}

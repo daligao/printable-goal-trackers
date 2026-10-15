@@ -1,0 +1,17 @@
+{
+  "id": "reading-challenge",
+  "title": "Reading Challenge",
+  "subtitle": "Make space for the books you want to meet this season.",
+  "purpose": "Set a flexible reading intention and collect small notes as you go.",
+  "fields": [
+    "My reading goal",
+    "Start date",
+    "Finish date"
+  ],
+  "instructions": [
+    "Choose a goal that fits your season: pages, minutes, books, or a mix.",
+    "Add a title when you start it and mark the finish when you are done.",
+    "Use the notes column for a quote, idea, or reason to recommend it."
+  ],
+  "type": "reading"
+}

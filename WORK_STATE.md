@@ -8,12 +8,14 @@ private application, Pro features, customer data, or secrets.
 
 ## Current work package
 
-Complete: A — audit, positioning, and local project initialization.
+Complete: B — reusable renderer and four verified printable resources.
 
 ## Completed work packages
 
 - A (2026-10-15): product audit, public-content boundary, PDF-engine decision,
   repository scaffold, and development plan.
+- B (2026-10-15): Playwright PDF/PNG renderer, four original template data sets,
+  eight one-page PDFs, four previews, automated output checks, and visual QA.
 
 ## Verified architecture
 
@@ -37,24 +39,23 @@ Complete: A — audit, positioning, and local project initialization.
 
 - Audit: `reports/00-product-audit.md`
 - Generator (next package): `src/generator/`
-- Content definitions (next package): `src/data/`
-- Generated resources (next package): `templates/` and `previews/`
+- Content definitions: `src/data/templates.mjs`
+- Generated resources: `templates/` and `previews/`
+- Print QA: `reports/03-print-quality.md`
 
 ## Test status
 
-- PASS: Node 26.10.0, npm 11.19.1, Git 2.55.0, and Playwright 1.64.1 are
-  available locally.
-- Not yet run: PDF rendering or print-layout tests (reserved for package B).
+- PASS: Node 26.10.0, npm 11.19.1, Git 2.55.0, Playwright Chromium rendering,
+  2 unit tests, 8 one-page PDF checks, and 4 preview checks.
+- PASS: Visual PDF review at 150 DPI for all four A4 worksheets.
 
 ## Unresolved issues
 
-- Verify browser binaries and paper-layout output when the generator is added.
 - Decide final content license wording in package C after generated source exists.
 
 ## Next work
 
-Wait for `继续工作包 B`. Build one fully verified template and the reusable
-generator, then generate the remaining three resources from that engine.
+Continue with package C: repository documentation and local static showcase.
 
 ## Recent Git commit
 
