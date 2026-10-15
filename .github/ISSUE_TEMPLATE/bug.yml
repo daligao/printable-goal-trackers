@@ -1,0 +1,8 @@
+name: Bug report
+description: Report a reproducible PDF or site issue.
+body:
+  - type: textarea
+    attributes: { label: What happened?, description: Do not include personal information. }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Template and paper size }
