@@ -9,6 +9,7 @@
   },
   "scripts": {
     "generate": "node scripts/generate.mjs",
+    "build": "npm run generate && node scripts/build-site.mjs",
     "verify": "node scripts/verify-output.mjs",
     "test": "node --test tests/*.test.mjs"
   },
