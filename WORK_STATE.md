@@ -8,7 +8,7 @@ private application, Pro features, customer data, or secrets.
 
 ## Current work package
 
-Complete: G — release-candidate audit and one licensing correction completed.
+Complete: H — public GitHub, Pages, and v1.0.0 Release published and verified.
 
 ## Completed work packages
 
@@ -24,6 +24,8 @@ Complete: G — release-candidate audit and one licensing correction completed.
   and publication checklist; no remote state was changed.
 - G (2026-10-15): seven-repository reference audit, Letter visual check, license
   footer correction, complete history scan, and release-candidate review.
+- H (2026-10-15): public repository, GitHub Pages, and v1.0.0 Release; live
+  browser, PDF-download, README-preview, and Release-asset verification.
 
 ## Verified architecture
 
@@ -36,7 +38,7 @@ Complete: G — release-candidate audit and one licensing correction completed.
 
 ## Design decisions
 
-- Repository: `printable-goal-trackers`; local only until explicit publish approval.
+- Repository: https://github.com/daligao/printable-goal-trackers (public, `main`).
 - Initial content is original, black-and-white, printer-friendly, and account-free.
 - Scope is exactly four templates: 30-Day Habit Challenge, 2027 Goals Tracker,
   7-Day Declutter Challenge, and Reading Challenge.
@@ -53,6 +55,7 @@ Complete: G — release-candidate audit and one licensing correction completed.
 - Release review: `PUBLIC_RELEASE_CHECKLIST.md`
 - G audit: `reports/github-reference-reuse-audit.md` and
   `reports/release-candidate-review.md`
+- Public launch: `reports/public-launch-report.md`
 
 ## Test status
 
@@ -63,6 +66,9 @@ Complete: G — release-candidate audit and one licensing correction completed.
   previews, and all local PDF links reachable.
 - PASS: Final full build, 2 unit tests, 8 PDF metadata checks, and credential scan.
 - PASS: US Letter visual inspection and full reachable-Git-history secret scan.
+- PASS: GitHub Actions CI and Pages deployments on release commit `2a2c4fe`.
+- PASS: Live Pages desktop/390px checks, four previews, eight PDF downloads,
+  README preview, CutDone CTA/UTM, and Release ZIP download/checksum.
 
 ## Unresolved issues
 
@@ -70,9 +76,9 @@ Complete: G — release-candidate audit and one licensing correction completed.
 
 ## Next work
 
-Release candidate is READY WITH KNOWN LIMITATIONS. Await explicit approval to
-create/push a public repository, enable Pages, and publish v1.0.0.
+v1.0.0 is publicly released. Address user feedback or plan a separately approved
+iteration; do not alter the release asset or expand templates implicitly.
 
 ## Recent Git commit
 
-`2f448b4` — `docs: finalize publication readiness review`
+`2a2c4fe` / `v1.0.0` — public release commit (the launch report is committed next)
