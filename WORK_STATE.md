@@ -8,7 +8,7 @@ private application, Pro features, customer data, or secrets.
 
 ## Current work package
 
-Complete: F-Prepare — local project is ready for owner review before publication.
+Complete: G — release-candidate audit and one licensing correction completed.
 
 ## Completed work packages
 
@@ -22,6 +22,8 @@ Complete: F-Prepare — local project is ready for owner review before publicati
 - E (2026-10-15): promotion drafts, measurement plan, and delivery report.
 - F-Prepare (2026-10-15): final build, security scan, GitHub read-only checks,
   and publication checklist; no remote state was changed.
+- G (2026-10-15): seven-repository reference audit, Letter visual check, license
+  footer correction, complete history scan, and release-candidate review.
 
 ## Verified architecture
 
@@ -49,6 +51,8 @@ Complete: F-Prepare — local project is ready for owner review before publicati
 - Generated resources: `templates/` and `previews/`
 - Print QA: `reports/03-print-quality.md`
 - Release review: `PUBLIC_RELEASE_CHECKLIST.md`
+- G audit: `reports/github-reference-reuse-audit.md` and
+  `reports/release-candidate-review.md`
 
 ## Test status
 
@@ -58,6 +62,7 @@ Complete: F-Prepare — local project is ready for owner review before publicati
 - PASS: Local responsive Pages checks (1280px and 390px): 200 response, four
   previews, and all local PDF links reachable.
 - PASS: Final full build, 2 unit tests, 8 PDF metadata checks, and credential scan.
+- PASS: US Letter visual inspection and full reachable-Git-history secret scan.
 
 ## Unresolved issues
 
@@ -65,8 +70,8 @@ Complete: F-Prepare — local project is ready for owner review before publicati
 
 ## Next work
 
-Wait for explicit approval to create/push a public repository, enable Pages, and
-publish v1.0.0. Do not perform any external publication beforehand.
+Release candidate is READY WITH KNOWN LIMITATIONS. Await explicit approval to
+create/push a public repository, enable Pages, and publish v1.0.0.
 
 ## Recent Git commit
 
